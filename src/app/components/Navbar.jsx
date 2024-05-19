@@ -27,6 +27,13 @@ const navLinks = [
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
+  // Inline style for the menu transition
+  const menuStyle = {
+    overflow: 'hidden',
+    maxHeight: navbarOpen ? '500px' : '0', // Control visibility with maxHeight
+    transition: 'max-height 0.5s ease-in-out'
+  };
+
   return (
     <nav className="fixed mx-auto shadow-[0_1px_3px_0_rgba(0,0,0,0.1)] top-0 left-0 right-0 z-10 bg-[#FFFFFF] bg-opacity-100">
       <div className="flex container lg:py-1 flex-wrap items-center justify-between mx-auto px-4 py-2">
@@ -63,7 +70,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      <div style={menuStyle}>
+        <MenuOverlay links={navLinks} /> {/* Always rendered, visibility controlled by CSS */}
+      </div>
     </nav>
   );
 };
