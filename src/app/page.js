@@ -8,9 +8,9 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#FFFFFF] container mx-auto text-black">
+    <main className="flex min-h-screen flex-col bg-[#FFFFFF] text-black">
       <Navbar />
-      <div className="ml-4">
+      <div className="w-full mt-0">
         <IntroductionSection />
         <AboutSection />
         <TechSection />
@@ -20,4 +20,4 @@ export default function Home() {
     <Footer />
     </main>
   );
-}
+};
