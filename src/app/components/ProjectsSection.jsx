@@ -10,11 +10,11 @@ const ProjectsSection = () => {
             github: "https://github.com/AhmetMuratAcar/grabby",
             description: "Grabby is a website for college students to easily add important dates from their syllabuses to their Google Calendars.",
             techstack: [
-                { name: "JS", logo: "/path/to/react-logo.svg" },
-                { name: "Node.js", logo: "/path/to/nodejs-logo.svg" },
-                { name: "Express", logo: "/path/to/nodejs-logo.svg" },
-                { name: "EJS", logo: "/path/to/nodejs-logo.svg" },
-                { name: "Bootstrap", logo: "/path/to/nodejs-logo.svg" }
+                { name: "JavaScript", logo: "/images/techstack/JavaScript-logo.png" },
+                { name: "Node.js", logo: "/images/techstack/node-logo.png" },
+                { name: "Express.js", logo: "/images/techstack/express-logo.png" },
+                { name: "EJS", logo: "/images/techstack/ejs-logo.svg" },
+                { name: "Bootstrap", logo: "/images/techstack/bootstrap-logo.png" }
             ]
         },
         {
@@ -23,9 +23,9 @@ const ProjectsSection = () => {
             github: "https://github.com/AhmetMuratAcar/CrossSeq",
             description: "CrossSeq is a simple visualization tool for comparing and contrasting the coding regions of mRNA FASTA sequences.",
             techstack: [
-                { name: "Python", logo: "/path/to/react-logo.svg" },
-                { name: "CustomTkinter", logo: "/path/to/nodejs-logo.svg" },
-                { name: "Pillow", logo: "/path/to/nodejs-logo.svg" }
+                { name: "Python", logo: "/images/techstack/Python-logo.png" },
+                { name: "CustomTkinter", logo: "/images/techstack/customtkinter-logo.png" },
+                { name: "Pillow", logo: "/images/techstack/pillow-logo.png" }
             ]
         },
         {
@@ -34,9 +34,10 @@ const ProjectsSection = () => {
             github: "https://github.com/AhmetMuratAcar/PootBot",
             description: "PootBot is a Discord bot for organizing custom Discord roles to track and organize user participation in popular games.",
             techstack: [
-                { name: "Python", logo: "/path/to/react-logo.svg" },
-                { name: "Discord.py", logo: "/path/to/nodejs-logo.svg" },
-                { name: "OCI", logo: "/path/to/nodejs-logo.svg" }
+                { name: "Python", logo: "/images/techstack/Python-logo.png" },
+                { name: "Discord.py", logo: "/images/techstack/discordpy-logo.png" },
+                { name: "Oracle Cloud", logo: "/images/techstack/oci-logo.png" },
+                { name: "tmux", logo: "/images/techstack/tmux-logo.png" }
             ]
         }
     ];
