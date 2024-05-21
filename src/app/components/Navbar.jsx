@@ -43,7 +43,7 @@ const Navbar = () => {
         >
           <img src="/gifs/BMO.gif" alt="BMO" className="h-8 md:h-14" />
         </Link>
-        <div className="mobile-menu block md:hidden">
+        <div className="mobile-menu block md:hidden pr-2">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
