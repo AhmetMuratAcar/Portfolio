@@ -19,19 +19,19 @@ const ProjectCard = ({ project }) => {
             </div>
 
             {/* Sliding Tabs */}
-            <div className="relative w-full max-w-xs mx-auto mb-8"> 
+            <div className="relative w-full max-w-xs mx-auto mb-8">
                 <div className="bg-gray-200 rounded-full overflow-hidden">
                     <div className="bg-[#3761E8] h-full rounded-full absolute left-0 top-0 w-1/2 transition-transform duration-300 ease-out" style={sliderStyles}></div>
                     <div className="flex">
                         <button
-                            className="flex-1 px-1 py-1 text-sm text-center transition duration-300 ease-out focus:outline-none text-black"  // Smaller padding and text size
+                            className={`flex-1 px-1 py-1 text-sm text-center transition duration-300 ease-out focus:outline-none ${activeTab === 'description' ? 'text-white' : 'text-black'}`}
                             onClick={() => setActiveTab('description')}
                             style={{ zIndex: 1 }}
                         >
                             Description
                         </button>
                         <button
-                            className="flex-1 px-1 py-1 text-sm text-center transition duration-300 ease-out focus:outline-none text-black"  // Smaller padding and text size
+                            className={`flex-1 px-1 py-1 text-sm text-center transition duration-300 ease-out focus:outline-none ${activeTab === 'techstack' ? 'text-white' : 'text-black'}`}
                             onClick={() => setActiveTab('techstack')}
                             style={{ zIndex: 1 }}
                         >
@@ -40,8 +40,6 @@ const ProjectCard = ({ project }) => {
                     </div>
                 </div>
             </div>
-
-
 
             {/* Content Area */}
             <div className="content-area mt-4 pb-4" style={{ minHeight: '200px' }}>

@@ -38,7 +38,7 @@ const TechSection = () => {
                     Technologies and Tools
                 </h2>
                 <p className="text-lg lg:text-xl text-left text-gray-600 mt-12 mb-5">
-                    The following are some of the technologies I am experienced with:
+                    The following are some of the technologies and tools I am experienced with:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     {technologies.map((tech, index) => (
