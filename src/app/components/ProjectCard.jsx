@@ -46,7 +46,7 @@ const ProjectCard = ({ project }) => {
                 {activeTab === 'description' && (
                     <div className="description-tab px-2 md:px-20 flex flex-col items-center">
                         <img src={project.image} alt={project.name} />
-                        <p className="text-gray-600 mt-4">{project.description}</p>
+                        <p className="text-black mt-4">{project.description}</p>
                     </div>
                 )}
                 {activeTab === 'techstack' && (
