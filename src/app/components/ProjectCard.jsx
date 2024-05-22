@@ -19,19 +19,19 @@ const ProjectCard = ({ project }) => {
             </div>
 
             {/* Sliding Tabs */}
-            <div className="relative w-full max-w-md mx-auto mb-8">
+            <div className="relative w-full max-w-xs mx-auto mb-8"> 
                 <div className="bg-gray-200 rounded-full overflow-hidden">
                     <div className="bg-[#3761E8] h-full rounded-full absolute left-0 top-0 w-1/2 transition-transform duration-300 ease-out" style={sliderStyles}></div>
                     <div className="flex">
-                        <button 
-                            className="flex-1 p-2 text-center transition duration-300 ease-out focus:outline-none text-black"
+                        <button
+                            className="flex-1 px-1 py-1 text-sm text-center transition duration-300 ease-out focus:outline-none text-black"  // Smaller padding and text size
                             onClick={() => setActiveTab('description')}
                             style={{ zIndex: 1 }}
                         >
                             Description
                         </button>
-                        <button 
-                            className="flex-1 p-2 text-center transition duration-300 ease-out focus:outline-none text-black"
+                        <button
+                            className="flex-1 px-1 py-1 text-sm text-center transition duration-300 ease-out focus:outline-none text-black"  // Smaller padding and text size
                             onClick={() => setActiveTab('techstack')}
                             style={{ zIndex: 1 }}
                         >
@@ -41,11 +41,13 @@ const ProjectCard = ({ project }) => {
                 </div>
             </div>
 
+
+
             {/* Content Area */}
-            <div className="content-area mt-4 pb-8" style={{ minHeight: '200px' }}>
+            <div className="content-area mt-4 pb-4" style={{ minHeight: '200px' }}>
                 {activeTab === 'description' && (
-                    <div className="description-tab px-20">
-                        <img src={project.image} alt={project.name} className="w-full h-40 object-cover rounded-lg" />
+                    <div className="description-tab px-2 md:px-20 flex flex-col items-center">
+                        <img src={project.image} alt={project.name} />
                         <p className="text-gray-600 mt-4">{project.description}</p>
                     </div>
                 )}

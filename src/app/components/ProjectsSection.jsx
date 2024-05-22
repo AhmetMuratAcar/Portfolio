@@ -6,7 +6,7 @@ const ProjectsSection = () => {
     const projects = [
         {
             name: "Grabby",
-            image: "/path/to/project-image.jpg",
+            image: "/images/projects/Grabby/grabby1.png",
             github: "https://github.com/AhmetMuratAcar/grabby",
             description: "Grabby is a website for college students to easily add important dates from their syllabuses to their Google Calendars.",
             techstack: [
@@ -19,7 +19,7 @@ const ProjectsSection = () => {
         },
         {
             name: "CrossSeq",
-            image: "/path/to/project-image.jpg",
+            image: "/images/projects/CrossSeq/dna1.png",
             github: "https://github.com/AhmetMuratAcar/CrossSeq",
             description: "CrossSeq is a simple visualization tool for comparing and contrasting the coding regions of mRNA FASTA sequences.",
             techstack: [
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
         },
         {
             name: "PootBot",
-            image: "/path/to/project-image.jpg",
+            image: "/images/projects/PootBot/poot2.png",
             github: "https://github.com/AhmetMuratAcar/PootBot",
             description: "PootBot is a Discord bot for organizing custom Discord roles to track and organize user participation in popular games.",
             techstack: [

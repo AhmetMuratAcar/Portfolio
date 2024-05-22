@@ -1,5 +1,5 @@
 import React from "react";
-import TechBox from "./TechBox";  // Assuming TechBox is in the same directory
+import TechBox from "./TechBox";
 
 const TechSection = () => {
     const technologies = [
