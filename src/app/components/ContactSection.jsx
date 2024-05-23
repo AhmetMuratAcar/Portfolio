@@ -79,9 +79,9 @@ const ContactSection = () => {
 
                     <div className="flex-1 px-4 md:px-0 mt-10 w-full">
                         {emailSubmitted ? (
-                            <p className="text-green-500 text-sm">
+                            <h2 className="text-green-500 text-center">
                                 Email sent successfully!
-                            </p>
+                            </h2>
                         ) : (
                             <form className="flex flex-col" onSubmit={handleSubmit}>
                                 <div className="mb-6">
