@@ -7,7 +7,7 @@ const TechSection = () => {
         { logo: "/images/techstack/Python-logo.png", name: "Python" },
         { logo: "/images/techstack/R-logo.png", name: "R" },
         { logo: "/images/techstack/html-logo.png", name: "HTML" },
-        { logo: "/images/techstack/css-logo.png", name: "CSS" },
+        { logo: "/images/techstack/CSS-logo.png", name: "CSS" },
         { logo: "/images/techstack/sql-logo.png", name: "SQL" },
         { logo: "/images/techstack/postgre-logo.png", name: "PostgreSQL" },
         { logo: "/images/techstack/ejs-logo.svg", name: "EJS" },
