@@ -41,8 +41,8 @@ const IntroductionSection = () => {
                     </h1>
                 </div>
                 <a
-                    href="/AhmetMuratAcar-Reume.pdf"
-                    download="AhmetMuratAcar-Reume.pdf"
+                    href="/Resume_Murat.pdf"
+                    download="Resume_Murat.pdf"
                     className="bg-[#3761E8] hover:bg-blue-700 text-white font-bold py-2 sm:py-3 md:py-4 px-4 sm:px-6 md:px-10 rounded text-sm sm:text-base md:text-lg transition-all duration-300 ease-in-out flex items-center justify-center"
                 >
                     Resume <span className="mr-2"></span>
