@@ -30,9 +30,9 @@ const ProjectsSection = () => {
         },
         {
             name: "PootBot",
-            image: "/images/projects/PootBot/poot2.png",
+            image: "/images/projects/PootBot/Example.webp",
             github: "https://github.com/AhmetMuratAcar/PootBot",
-            description: "PootBot is a Discord bot for organizing custom Discord roles to track and organize user participation in popular games.",
+            description: "PootBot is a Discord bot for organizing custom Discord roles to track and organize user participation.",
             techstack: [
                 { name: "Python", logo: "/images/techstack/Python-logo.png" },
                 { name: "Discord.py", logo: "/images/techstack/discordpy-logo.png" },
