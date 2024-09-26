@@ -5,7 +5,7 @@ const TechSection = () => {
     const technologies = [
         { logo: "/images/techstack/JavaScript-logo.png", name: "JavaScript" },
         { logo: "/images/techstack/Python-logo.png", name: "Python" },
-        { logo: "/images/techstack/R-logo.png", name: "R" },
+        { logo: "/images/techstack/java-logo.png", name: "Java" },
         { logo: "/images/techstack/html-logo.png", name: "HTML" },
         { logo: "/images/techstack/CSS-logo.png", name: "CSS" },
         { logo: "/images/techstack/sql-logo.png", name: "SQL" },
@@ -21,7 +21,7 @@ const TechSection = () => {
         { logo: "/images/techstack/bootstrap-logo.png", name: "Bootstrap" },
         { logo: "/images/techstack/tailwind-logo.png", name: "Tailwind" },
         { logo: "/images/techstack/docker-mark-blue.png", name: "Docker" },
-        { logo: "/images/techstack/tmux-logo.png", name: "tmux" },
+        { logo: "/images/techstack/playwright-logo.png", name: "Playwright" },
         { logo: "/images/techstack/jira-logo.png", name: "Jira" },
     ];
 
