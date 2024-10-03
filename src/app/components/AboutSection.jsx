@@ -16,7 +16,7 @@ const AboutSection = () => {
                 </h2>
                 <p className="text-lg lg:text-xl text-left text-gray-600 mt-12">
                     Since graduating from college with a B.S. in biotechnology, I have worked in many different industries.
-                    I was on the business development/management end of things for a bit before working as a chemist in the
+                    I was on the QA engineering end of things for a bit before working as a chemist in the
                     pharmaceutical industry. However, about 2 years ago, I became a full-stack software developer at GTDM and
                     I've never been happier! I am a self-taught developer who prides himself on the ability to adapt to any
                     environment and find creative solutions to difficult problems. As a software developer, I have been able to
@@ -24,7 +24,7 @@ const AboutSection = () => {
                     <br/>
                     <br/>
                     In my free time, I enjoy going to the gym (I NEVER skip legs 😤), watching sports with friends, and playing
-                    digital card games. Feel free to hit me up if you want to theorycraft some spice for Yu-Gi-Oh!, Hearthstone,
+                    digital card games. Feel free to hit me up if you want to theorycraft some spice for Yu-Gi-Oh!, Pokemon, Hearthstone,
                     or Marvel Snap ☝️🤓.
                 </p>
             </div>
