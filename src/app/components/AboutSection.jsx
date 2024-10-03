@@ -20,7 +20,8 @@ const AboutSection = () => {
                     pharmaceutical industry. However, about 2 years ago, I became a full-stack software developer at GTDM and
                     I've never been happier! I am a self-taught developer who prides himself on the ability to adapt to any
                     environment and find creative solutions to difficult problems. As a software developer, I have been able to
-                    scratch that problem-solving itch every single day.
+                    scratch that problem-solving itch every single day. I am always looking to learn and improve my skills. Currently
+                    I am focusing on learning and working with low level languages like Go and C.
                     <br/>
                     <br/>
                     In my free time, I enjoy going to the gym (I NEVER skip legs 😤), watching sports with friends, and playing
