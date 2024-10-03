@@ -17,11 +17,11 @@ const TechSection = () => {
         { logo: "/images/techstack/express-logo.png", name: "Express.js" },
         { logo: "/images/techstack/postman-logo.webp", name: "Postman" },
         { logo: "/images/techstack/git-logo.png", name: "Git" },
-        { logo: "/images/github-mark.png", name: "GitHub" },
         { logo: "/images/techstack/bootstrap-logo.png", name: "Bootstrap" },
         { logo: "/images/techstack/tailwind-logo.png", name: "Tailwind" },
         { logo: "/images/techstack/docker-mark-blue.png", name: "Docker" },
         { logo: "/images/techstack/playwright-logo.png", name: "Playwright" },
+        { logo: "/images/techstack/selenium-logo.png", name: "Selenium" },
         { logo: "/images/techstack/jira-logo.png", name: "Jira" },
     ];
 
