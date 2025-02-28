@@ -5,6 +5,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
 const myEmail = process.env.TO_EMAIL;
 
+// Vercel test
+
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
   console.log(email, subject, message);
