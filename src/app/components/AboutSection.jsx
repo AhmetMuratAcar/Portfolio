@@ -15,13 +15,7 @@ const AboutSection = () => {
                     About Me
                 </h2>
                 <p className="text-lg lg:text-xl text-left text-gray-600 mt-12">
-                    Since graduating from college with a B.S. in biotechnology, I have worked in many different industries.
-                    I was on the QA engineering end of things for a bit before working as a chemist in the
-                    pharmaceutical industry. However, about 2 years ago, I became a full-stack software developer at GTDM and
-                    I've never been happier! I am a self-taught developer who prides himself on the ability to adapt to any
-                    environment and find creative solutions to difficult problems. As a software developer, I have been able to
-                    scratch that problem-solving itch every single day. I am always looking to learn and improve my skills. Currently
-                    I am focusing on learning and working with low level languages like Go and C.
+                    Since graduating from college with a B.S. in biotechnology, I have worked as a QA engineer while also gaining experience in the pharmaceutical industry as a chemist. My background in both fields has strengthened my analytical skills, attention to detail, and problem-solving abilities. About two years ago, I joined GTDM as a QA engineer, and I’ve never been happier! I take pride in designing and implementing efficient testing processes, ensuring software quality, and driving automation efforts. I am always looking to learn and improve my skills, and I am currently focusing on low-level languages like Go and C to enhance my approach to testing and automation.
                     <br/>
                     <br/>
                     In my free time, I enjoy going to the gym (I NEVER skip legs 😤), watching sports with friends, and playing

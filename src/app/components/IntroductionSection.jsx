@@ -24,7 +24,7 @@ const IntroductionSection = () => {
                         <br />
                         <TypeAnimation
                             sequence={[
-                                "Software Developer",
+                                "QA Engineer",
                                 1000,
                                 "Scientist",
                                 1000,
